@@ -1,5 +1,5 @@
 """
-ASGI config for music_release_alert_app project.
+ASGI config for music_release_alert project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'music_release_alert_app.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'music_release_alert.settings')
 
 application = get_asgi_application()

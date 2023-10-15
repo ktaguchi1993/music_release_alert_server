@@ -1,5 +1,5 @@
 """
-WSGI config for music_release_alert_app project.
+WSGI config for music_release_alert project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'music_release_alert_app.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'music_release_alert.settings')
 
 application = get_wsgi_application()
